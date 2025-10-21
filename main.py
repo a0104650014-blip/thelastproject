@@ -1,3 +1,5 @@
+import streamlit as st
+
 st.title('나의 첫 웹 서비스 만들기!!')
 name = st.text_input('이름을 입력해주세요 : ')
 menu = st.selectbox('가장 많이 쓰는 앱은? :', ['유튜브','인스타', '카톡'])
